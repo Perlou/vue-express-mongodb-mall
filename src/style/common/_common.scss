@@ -1,0 +1,138 @@
+$sNum: (80, 90, 100, 100, 110, 120, 125, 130, 140);
+$mgNum: (0, 5, 10, 12, 15, 20, 25, 30, 35, 40, 50, 60, 70);
+
+@each $num in $sNum {
+    .select-#{$num} {
+        width: #{$num}px;
+    }
+
+    .input-#{$num} {
+        &.el-input {
+            width: #{$num}px;
+        }
+    }
+
+    .button-#{$num} {
+        &.el-button {
+            width: #{$num}px !important;
+        }
+    }
+}
+
+@each $num in $mgNum {
+    .m-t-#{$num} {
+        margin-top: #{$num}px;
+    }
+
+    .m-r-#{$num} {
+        margin-right: #{$num}px;
+    }
+
+    .m-b-#{$num} {
+        margin-bottom: #{$num}px !important;
+    }
+
+    .m-l-#{$num} {
+        margin-left: #{$num}px;
+    }
+
+    .p-t-#{$num} {
+        padding-top: #{$num}px;
+    }
+
+    .p-r-#{$num} {
+        padding-right: #{$num}px;
+    }
+
+    .p-b-#{$num} {
+        padding-bottom: #{$num}px;
+    }
+
+    .p-l-#{$num} {
+        padding-left: #{$num}px;
+    }
+}
+
+.is-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.is-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-j-c {
+    justify-content: center;
+}
+
+.f-j-s {
+    justify-content: flex-start;
+}
+
+.f-j-e {
+    justify-content: flex-end;
+}
+
+.f-a-c {
+    align-items: center;
+}
+
+.f-a-s {
+    align-items: flex-start;
+}
+
+.f-a-e {
+    align-items: flex-end;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.break-word {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.flex-containner {
+    display: flex;
+
+    > p {
+        margin: 0;
+        flex: 1;
+    }
+}
+
+// 流式布局
+.flex-wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// 两端布局
+.flex-both-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.max-w50 {
+    max-width: 50px;
+}
+
+.max-w100 {
+    max-width: 100px;
+}
+
+.v-a-middle {
+    vertical-align: middle;
+}

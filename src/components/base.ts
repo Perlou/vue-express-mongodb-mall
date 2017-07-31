@@ -1,7 +1,6 @@
 /**
  * 所有组件的基类
- * @author Allenice
- * @since 2017-06-30 05:31:10
+ * @author Perlou(perloukevin@gmail.com)
  */
 
 import Vue from 'vue'
