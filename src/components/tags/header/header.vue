@@ -13,7 +13,11 @@
                 </div>
                 <div class="header-operation">
                     <span>admin</span>
-                    <el-button type="text">文字按钮</el-button>
+                    <el-button 
+                        type="text"
+                        @click="showLogin">
+                        Login
+                    </el-button>
                 </div>
             </div>
        </div>

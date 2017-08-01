@@ -13,8 +13,8 @@ export default {
         })
     },
 
-    getProducts () {
-        return get('/products')
+    getProducts (data: any) {
+        return get<any>('/products', data)
     },
 
     product: productApi,

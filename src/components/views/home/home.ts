@@ -18,5 +18,9 @@ export default class Home extends Vue {
         let res = await this.api.getProducts()
         console.log(res)
     }
+
+    async getData () {
+        
+    }
 }
 

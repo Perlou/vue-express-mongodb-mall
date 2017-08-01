@@ -14,5 +14,7 @@ import template from './header.vue'
     mixins: [template]
 })
 export default class Header extends Vue {
-
+    showLogin () {
+        console.log('login')
+    }
 }
