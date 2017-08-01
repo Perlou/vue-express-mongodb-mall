@@ -5,8 +5,10 @@
  * @since 2.0.0
  -->
 <template>
-    <div>
-        <h1>Footer</h1>
-    </div>
+    <footer class="footer">
+        <div class="footer-wrap">
+            
+        </div>
+    </footer>
 </template>
 <style src="./footer.scss" lang="scss" scoped></style>
