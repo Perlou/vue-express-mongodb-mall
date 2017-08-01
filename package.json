@@ -23,6 +23,7 @@
     "debug": "^2.6.8",
     "element-ui": "^1.4.1",
     "jade": "^1.11.0",
+    "mongoose": "^4.11.5",
     "morgan": "^1.8.2",
     "normalize.css": "^7.0.0",
     "qs": "^6.5.0",

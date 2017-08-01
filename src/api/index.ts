@@ -13,6 +13,10 @@ export default {
         })
     },
 
+    getProducts () {
+        return get('/products')
+    },
+
     product: productApi,
     ax: ax,
     axios: axios
